@@ -1,19 +1,23 @@
+import { render } from 'enzyme'
 // your ImageSlider code here!
 import React from 'react'
 
-class imageSlider extends React.Component{
+class ImageSlider extends React.Component{
     constructor(){
         super()
+
         this.state = {
             currentSlideIndex: 0
         }
     }
-
-    render(){
+    
+    render() {
         return(
             <div>I am on slide 0</div>
-        )
+            )
+        }
+        
+            
     }
-}
-
-export default imageSlider
+    
+export default ImageSlider
